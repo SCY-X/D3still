@@ -20,7 +20,7 @@ Gallery Network: ResNet101 &nbsp; Gallery Network Input Resolution: $256\times25
  
 Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($128\times128$) &nbsp; In-Shop ($64\times 64$) &nbsp; SOP ($64\times 64$)
 
-<div style="text-align:center"><img src=".github/Ablation_Study.png" width="100%" ></div> 
+<div style="text-align:center"><img src="/AIR_Distiller/.github/Ablation_Study.png" width="100%" ></div> 
 
 
 ### SOTA Experiments
