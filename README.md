@@ -1,6 +1,5 @@
 # D3still
 
-
 This repo is
 
 (1) a PyTorch library that provides classical knowledge distillation algorithms on asymmetric image retrieval benchmarks.
@@ -28,43 +27,107 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  <br> |  <br> |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($128\times128$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)  |  <br> |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.99% mAP &nbsp; 0.62% R1 1 |  |  |
-| RKD | 0.85% mAP &nbsp; 0.36% R1 1|  |  |
-| PKT | 0.87% mAP &nbsp; 0.71% R1 30000 |  |  |
-| FitNet|  54.73% mAP &nbsp; 60.96% R1 2|  |  |
-| CC| 57.93% mAP &nbsp; 62.89% R1  5|  |  |
-| CSD| 58.86% mAP &nbsp; 64.08% R1  10|  |  |
-| RAML| 57.87% mAP &nbsp; 62.89% R1 10|  |  |
-| ROP| 55.61% mAP &nbsp; 63.00% R1 1|  |  |
-| D3still (Ours) | 59.40% mAP &nbsp; 64.46% R1 100 5 1 | | |
+| VanillaKD | 0.99% mAP &nbsp; 0.62% R1| 0.80% mAP &nbsp; 0.28% R1 |  |
+| RKD | 0.85% mAP &nbsp; 0.36% R1| 0.90% mAP &nbsp; 0.52% R1 |  |
+| PKT | 0.87% mAP &nbsp; 0.71% R1| 0.95% mAP &nbsp; 0.55% R1 |  |
+| FitNet|  54.73% mAP &nbsp; 60.96% R1| 56.61% mAP &nbsp; 61.82% R1 |  |
+| CC| 57.93% mAP &nbsp; 62.89% R1| 59.91% mAP &nbsp; 64.26% R1 |  |
+| CSD| 58.86% mAP &nbsp; 64.08% R1| 60.44% mAP &nbsp; 64.31% R1|  |
+| RAML| 57.87% mAP &nbsp; 62.89% R1| 60.22% mAP &nbsp; 64.79% R1|  |
+| ROP| 55.61% mAP &nbsp; 63.00% R1| 57.23% mAP &nbsp; 63.12% R1 | |
+| D3still (Ours) | 59.40% mAP &nbsp; 64.46% R1| 61.03% mAP &nbsp; 64.84% R1 | |
 
 #### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  <br> |  <br> |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|  <br> |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.15% mAP &nbsp; 0.02% R1 1 |  |  |
-| RKD |  0.15% mAP &nbsp; 0.06% R1 1|  |  |
-| PKT | 0.13% mAP &nbsp; 0.02% R1 30000 |  |  |
-| FitNet|  65.99% mAP &nbsp; 80.50% R1 2|  |  |
-| CC| 66.60% mAP &nbsp; 81.21% R1  5|  |  |
-| CSD| 66.64% mAP &nbsp; 81.00% R1  10|  |  |
-| RAML| 67.18% mAP &nbsp; 81.85% R1 10|  |  |
-| ROP| 65.58% mAP &nbsp; 80.24% R1 1|  |  |
-| D3still (Ours) | 68.56% mAP &nbsp; 83.96% R1 100 5 1 | | |
+| VanillaKD | 0.15% mAP &nbsp; 0.02% R1|  0.12% mAP &nbsp; 0.03% R1 |  |
+| RKD |  0.15% mAP &nbsp; 0.06% R1| 0.15% mAP &nbsp; 0.04% R1|  |
+| PKT | 0.13% mAP &nbsp; 0.02% R1 |  0.13% mAP &nbsp; 0.04% R1|  |
+| FitNet|  65.99% mAP &nbsp; 80.50% R1| 66.07% mAP &nbsp; 79.58% R1|  |
+| CC| 66.60% mAP &nbsp; 81.21% R1 | 66.09% mAP &nbsp; 79.54% R1|  |
+| CSD| 66.64% mAP &nbsp; 81.00% R1| 65.73% mAP &nbsp; 78.55% R1|  |
+| RAML| 67.18% mAP &nbsp; 81.85% R1| 65.95% mAP &nbsp; 79.45% R1|  |
+| ROP| 65.58% mAP &nbsp; 80.24% R1| 64.20% mAP &nbsp; 77.62% R1|  |
+| D3still (Ours) | 68.56% mAP &nbsp; 83.96% R1|67.90% mAP &nbsp; 82.18% R1| |
 
 
 #### On the Stanford Online Products (SOP) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  <br> |  <br> |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |  <br> |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.04% mAP &nbsp; 0.00% R1 1 |  |  |
-| RKD |  0.03% mAP &nbsp; 0.00% R1 1 |  |  |
-| PKT | 0.04% mAP &nbsp; 0.02% R1 30000 |  |  |
-| FitNet|  48.87% mAP &nbsp; 65.35% R1 2|  |  |
-| CC| 49.11% mAP &nbsp; 66.05% R1  5|  |  |
-| CSD| 49.43% mAP &nbsp; 65.96% R1  10|  |  |
-| RAML| 49.46% mAP &nbsp; 66.24% R1 10|  |  |
-| ROP| 48.03% mAP &nbsp;% 64.66% R1 1|  |  |
-| D3still (Ours) | 51.12% mAP &nbsp; 68.42% R1 100 5 1 | | |
+| VanillaKD | 0.04% mAP &nbsp; 0.00% R1| 0.04% mAP &nbsp; 0.01% R1 |  |
+| RKD |  0.03% mAP &nbsp; 0.00% R1|  0.03% mAP &nbsp; 0.00% R1|  |
+| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.03% mAP &nbsp; 0.00% R1|  |
+| FitNet|  48.87% mAP &nbsp; 65.35% R1| 45.70% mAP &nbsp; 60.53% R1 |  |
+| CC| 49.11% mAP &nbsp; 66.05% R1| 46.57% mAP &nbsp; 62.16% R1 |  |
+| CSD| 49.43% mAP &nbsp; 65.96% R1| 46.22% mAP &nbsp; 61.03% R1 |  |
+| RAML| 49.46% mAP &nbsp; 66.24% R1| 46.79% mAP &nbsp; 62.12% R1|  |
+| ROP| 48.03% mAP &nbsp; 64.66% R1| 44.53% mAP &nbsp; 59.66% R1|  |
+| D3still (Ours) | 51.12% mAP &nbsp; 68.42% R1|48.70% mAP &nbsp; 64.94% R1 | |
+
+
+#### On the MSMT17 dataset
+
+| Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |  <br> |
+|:---------------:|:-----------------:|:-----------------:|:-----------------:|
+| VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 |  |
+| RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1|  |
+| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.03% R1|  |
+| FitNet|  36.46% mAP &nbsp; 56.45% R1| 36.88% mAP &nbsp; 56.57% R1 |  |
+| CC| 36.57% mAP &nbsp; 56.82% R1| 37.26% mAP &nbsp; 56.65% R1 |  |
+| CSD| 38.30% mAP &nbsp; 59.04% R1| 38.39% mAP &nbsp; 57.85% R1 |  |
+| RAML| 38.15% mAP &nbsp; 58.89% R1| 38.32% mAP &nbsp; 58.21% R1|  |
+| ROP| 36.02% mAP &nbsp; 57.17% R1| 36.08% mAP &nbsp;  56.45% R1|  |
+| D3still (Ours) | 39.54% mAP &nbsp; 61.37% R1| 39.42% mAP &nbsp; 60.13% R1 | |
+
+
+# AIR-Distiller
+
+### Introduction
+
+MDistiller supports the following distillation methods on  Caltech-UCSD Birds 200 (CUB-200-2011), In-Shop Clothes Retrieval (In-Shop), Stanford Online Products (SOP) and MSMT17:
+|Method|Publication|YEAR||
+|:---:|:---:|:---:|:---:|
+|[VanillaKD](https://arxiv.org/abs/1503.02531) |NIPS Workshop|2014| |
+|[FitNet](https://arxiv.org/abs/1412.6550) |ICLR|2015 | |
+|[PKT](https://openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Passalis_Learning_Deep_Representations_ECCV_2018_paper.pdf) | ECCV | 2018 | |
+|[RKD](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Relational_Knowledge_Distillation_CVPR_2019_paper.html) |CVPR| 2019| |
+|[CC](https://openaccess.thecvf.com/content_ICCV_2019/html/Peng_Correlation_Congruence_for_Knowledge_Distillation_ICCV_2019_paper.html) |ICCV| 2019| |
+|[CSD](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_Contextual_Similarity_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2022_paper.html) |CVPR|2023 | |
+|[RAML](https://openaccess.thecvf.com/content/WACV2023/html/Suma_Large-to-Small_Image_Resolution_Asymmetry_in_Deep_Metric_Learning_WACV_2023_paper.html)|WACV|2023| |
+|[ROP](https://openreview.net/forum?id=dYHYXZ3uGdQ)|ICLR|2023| |
+|[D3still](https://openaccess.thecvf.com/content/CVPR2024/html/Xie_D3still_Decoupled_Differential_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2024_paper.html) |CVPR|2024|
+
+
+### Installation
+
+Environments:
+
+- Python 3.10
+- PyTorch 2.4.1
+- torchvision 0.19.1
+- ptflops 0.7.4
+
+Install the package:
+
+```
+sudo pip3 install -r requirements.txt
+```
+
+### Getting started
+
+0. download data
+- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1ySKEmn8WVm2efJVvJ_vMBQ?pwd=ebyx. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
+
+
+  XXXX/data/  
+    &nbsp; &nbsp; &nbsp; &nbsp; └── CUB_200_2011  
+    &nbsp; &nbsp; &nbsp; &nbsp; └── InShop  
+    &nbsp; &nbsp; &nbsp; &nbsp; └── Stanford_Online_Products  
+    &nbsp; &nbsp; &nbsp; &nbsp; └── MSMT17
+
+1. download teacher models
+- Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i, please download the checkpoints to `./download_ckpts`
