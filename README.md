@@ -211,7 +211,7 @@ If this repo is helpful for your research, please consider citing the paper:
 
 # License
 
-MDistiller is released under the MIT license. See [LICENSE](LICENSE) for details.
+AIR_Distiller is released under the MIT license. See [LICENSE](LICENSE) for details.
 
 # Acknowledgement
 
