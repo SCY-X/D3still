@@ -102,7 +102,7 @@ if __name__ == '__main__':
     output_dir = os.path.join(cfg.OUTPUT_DIR.ROOT_PATH, cfg.OUTPUT_DIR.EXPERIMENT_NAME)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    shutil.copyfile("./config/defaults.py", os.path.join(output_dir, "defaults.py"))
+    
     shutil.copyfile(args.cfg, os.path.join(output_dir, args.cfg.split("/")[-1]))
 
     logger = setup_logger("Asymmetric_Image_Retrieval", output_dir, if_train=True)
