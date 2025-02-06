@@ -5,7 +5,7 @@ import argparse
 import torch
 
 import sys
-sys.path.append(os.path.abspath("/home/data2/xieyi/D3_Distillation/AIR_KD"))
+sys.path.append(os.path.abspath("XXXXX/AIR_Distiller"))
 
 from config import cfg
 from utils.logger import setup_logger
