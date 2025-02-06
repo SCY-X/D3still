@@ -1,6 +1,6 @@
 import torch
 from torch.utils.data import DataLoader
-from .datasets import CUB200, InShop, MSMT17, SOP, VeRi776
+from .datasets import CUB200, InShop, MSMT17, SOP
 from .datasets.bases import ImageDataset, Distillation_ImageDataset
 from .sampler import RandomIdentitySampler
 import numpy as np
