@@ -39,17 +39,17 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|  <br> |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.15% mAP &nbsp; 0.02% R1|  0.12% mAP &nbsp; 0.03% R1 |  |
-| RKD |  0.15% mAP &nbsp; 0.06% R1| 0.15% mAP &nbsp; 0.04% R1|  |
-| PKT | 0.13% mAP &nbsp; 0.02% R1 |  0.13% mAP &nbsp; 0.04% R1|  |
-| FitNet|  65.99% mAP &nbsp; 80.50% R1| 66.07% mAP &nbsp; 79.58% R1|  |
-| CC| 66.60% mAP &nbsp; 81.21% R1 | 66.09% mAP &nbsp; 79.54% R1|  |
-| CSD| 66.64% mAP &nbsp; 81.00% R1| 65.73% mAP &nbsp; 78.55% R1|  |
-| RAML| 67.18% mAP &nbsp; 81.85% R1| 65.95% mAP &nbsp; 79.45% R1|  |
-| ROP| 65.58% mAP &nbsp; 80.24% R1| 64.20% mAP &nbsp; 77.62% R1|  |
-| D3still (Ours) | 68.56% mAP &nbsp; 83.96% R1|67.90% mAP &nbsp; 82.18% R1| |
+| VanillaKD | 0.15% mAP &nbsp; 0.02% R1|  0.12% mAP &nbsp; 0.03% R1 |0.16%  mAP &nbsp; 0.06% R1  |
+| RKD |  0.15% mAP &nbsp; 0.06% R1| 0.15% mAP &nbsp; 0.04% R1| 0.15% mAP &nbsp;  0.03% R1|
+| PKT | 0.13% mAP &nbsp; 0.02% R1 |  0.13% mAP &nbsp; 0.04% R1| 0.15% mAP &nbsp; 0.08% R1 |
+| FitNet|  65.99% mAP &nbsp; 80.50% R1| 66.07% mAP &nbsp; 79.58% R1| 60.41% mAP &nbsp; 74.61% R1|
+| CC| 66.60% mAP &nbsp; 81.21% R1 | 66.09% mAP &nbsp; 79.54% R1| 61.53% mAP &nbsp; 76.25% R1|
+| CSD| 66.64% mAP &nbsp; 81.00% R1| 65.73% mAP &nbsp; 78.55% R1| 62.27% mAP &nbsp; 76.48% R1|
+| RAML| 67.18% mAP &nbsp; 81.85% R1| 65.95% mAP &nbsp; 79.45% R1| 62.29% mAP &nbsp; 76.13% R1|
+| ROP| 65.58% mAP &nbsp; 80.24% R1| 64.20% mAP &nbsp; 77.62% R1| 61.43% mAP &nbsp; 75.91% R1|
+| D3still (Ours) | 68.56% mAP &nbsp; 83.96% R1|67.90% mAP &nbsp; 82.18% R1| 64.14% mAP &nbsp; 80.08% R1|
 
 
 #### On the Stanford Online Products (SOP) dataset
