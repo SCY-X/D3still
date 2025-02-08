@@ -54,17 +54,17 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the Stanford Online Products (SOP) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |  <br> |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$)  |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.04% mAP &nbsp; 0.00% R1| 0.04% mAP &nbsp; 0.01% R1 |  |
-| RKD |  0.03% mAP &nbsp; 0.00% R1|  0.03% mAP &nbsp; 0.00% R1|  |
-| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.03% mAP &nbsp; 0.00% R1|  |
-| FitNet|  48.87% mAP &nbsp; 65.35% R1| 45.70% mAP &nbsp; 60.53% R1 |  |
-| CC| 49.11% mAP &nbsp; 66.05% R1| 46.57% mAP &nbsp; 62.16% R1 |  |
-| CSD| 49.43% mAP &nbsp; 65.96% R1| 46.22% mAP &nbsp; 61.03% R1 |  |
-| RAML| 49.46% mAP &nbsp; 66.24% R1| 46.79% mAP &nbsp; 62.12% R1|  |
-| ROP| 48.03% mAP &nbsp; 64.66% R1| 44.53% mAP &nbsp; 59.66% R1|  |
-| D3still (Ours) | 51.12% mAP &nbsp; 68.42% R1|48.70% mAP &nbsp; 64.94% R1 | |
+| VanillaKD | 0.04% mAP &nbsp; 0.00% R1| 0.04% mAP &nbsp; 0.01% R1 | 0.03% mAP &nbsp; 0.00% R1 |
+| RKD |  0.03% mAP &nbsp; 0.00% R1|  0.03% mAP &nbsp; 0.00% R1| 0.03% mAP &nbsp; 0.00% R1 |
+| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.03% mAP &nbsp; 0.00% R1|  0.04% mAP &nbsp; 0.01% R1 |
+| FitNet|  48.87% mAP &nbsp; 65.35% R1| 45.70% mAP &nbsp; 60.53% R1 | 44.80% mAP &nbsp; 60.30% R1 |
+| CC| 49.11% mAP &nbsp; 66.05% R1| 46.57% mAP &nbsp; 62.16% R1 | 44.37% mAP &nbsp; 60.09% R1|
+| CSD| 49.43% mAP &nbsp; 65.96% R1| 46.22% mAP &nbsp; 61.03% R1 | 44.98% mAP &nbsp; 60.72% R1|
+| RAML| 49.46% mAP &nbsp; 66.24% R1| 46.79% mAP &nbsp; 62.12% R1| 45.52% mAP &nbsp; 61.48% R1|
+| ROP| 48.03% mAP &nbsp; 64.66% R1| 44.53% mAP &nbsp; 59.66% R1| 43.67% mAP &nbsp; 59.35% R1|
+| D3still (Ours) | 51.12% mAP &nbsp; 68.42% R1|48.70% mAP &nbsp; 64.94% R1 |46.59% mAP &nbsp; 63.60% R1|
 
 
 #### On the MSMT17 dataset
