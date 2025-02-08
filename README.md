@@ -69,17 +69,17 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the MSMT17 dataset
 
-| Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |  ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
+| Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) | ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 |  |
-| RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1|  |
+| VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.04% R1 |
+| RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1| 0.07%  mAP &nbsp; 0.04% R1 |
 | PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.03% R1|  |
-| FitNet|  36.46% mAP &nbsp; 56.45% R1| 36.88% mAP &nbsp; 56.57% R1 |  |
-| CC| 36.57% mAP &nbsp; 56.82% R1| 37.26% mAP &nbsp; 56.65% R1 |  |
-| CSD| 38.30% mAP &nbsp; 59.04% R1| 38.39% mAP &nbsp; 57.85% R1 |  |
-| RAML| 38.15% mAP &nbsp; 58.89% R1| 38.32% mAP &nbsp; 58.21% R1|  |
-| ROP| 36.02% mAP &nbsp; 57.17% R1| 36.08% mAP &nbsp;  56.45% R1|  |
-| D3still (Ours) | 39.54% mAP &nbsp; 61.37% R1| 39.42% mAP &nbsp; 60.13% R1 | |
+| FitNet|  36.46% mAP &nbsp; 56.45% R1| 36.88% mAP &nbsp; 56.57% R1 |  38.97% mAP &nbsp; 57.36%  R1|
+| CC| 36.57% mAP &nbsp; 56.82% R1| 37.26% mAP &nbsp; 56.65% R1 | 38.65% mAP &nbsp; 56.65% R1|
+| CSD| 38.30% mAP &nbsp; 59.04% R1| 38.39% mAP &nbsp; 57.85% R1 | 39.54% mAP &nbsp; 57.90% R1 |
+| RAML| 38.15% mAP &nbsp; 58.89% R1| 38.32% mAP &nbsp; 58.21% R1| 39.72% mAP &nbsp; 58.85% R1|
+| ROP| 36.02% mAP &nbsp; 57.17% R1| 36.08% mAP &nbsp;  56.45% R1| 37.56% mAP &nbsp; 57.35% R1|
+| D3still (Ours) | 39.54% mAP &nbsp; 61.37% R1| 39.42% mAP &nbsp; 60.13% R1 | 41.93% mAP &nbsp; 61.51% R1|
 
 
 # AIR-Distiller
