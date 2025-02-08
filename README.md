@@ -73,7 +73,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.04% R1 |
 | RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1| 0.07%  mAP &nbsp; 0.04% R1 |
-| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.03% R1|  |
+| PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.03% R1| 0.07% mAP &nbsp; 0.01% R1 |
 | FitNet|  36.46% mAP &nbsp; 56.45% R1| 36.88% mAP &nbsp; 56.57% R1 |  38.97% mAP &nbsp; 57.36%  R1|
 | CC| 36.57% mAP &nbsp; 56.82% R1| 37.26% mAP &nbsp; 56.65% R1 | 38.65% mAP &nbsp; 56.65% R1|
 | CSD| 38.30% mAP &nbsp; 59.04% R1| 38.39% mAP &nbsp; 57.85% R1 | 39.54% mAP &nbsp; 57.90% R1 |
