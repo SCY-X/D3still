@@ -169,6 +169,12 @@ DATASETS:
   python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet_64x64/D3.yaml 
 
  ```
+ - During inference, you can first navigate to `AIR_Distiller/utils/rank_cylib` and run the following commands to enable sorting with C language, which helps reduce inference time:  
+
+```bash
+python3 setup.py build_ext --inplace
+rm -rf build
+```
 
 ### Custom Distillation Method
 
