@@ -178,7 +178,7 @@ rm -rf build
 
 ### Custom Distillation Method
 
-1. create a python file at `mdistiller/distillers/` and define the distiller
+1. create a python file at `AIR_Distiller/distillers/` and define the distiller
   
   ```python
   from ._base import Distiller
