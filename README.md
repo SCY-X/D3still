@@ -87,8 +87,8 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 ### Introduction
 
 MDistiller supports the following distillation methods on  Caltech-UCSD Birds 200 (CUB-200-2011), In-Shop Clothes Retrieval (In-Shop), Stanford Online Products (SOP) and MSMT17:
-|Method|Publication|YEAR||
-|:---:|:---:|:---:|:---:|
+|Method|Publication|YEAR|
+|:---:|:---:|:---:|
 |[VanillaKD](https://arxiv.org/abs/1503.02531) |NIPS Workshop|2014|
 |[FitNet](https://arxiv.org/abs/1412.6550) |ICLR|2015 |
 |[PKT](https://openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Passalis_Learning_Deep_Representations_ECCV_2018_paper.pdf) | ECCV | 2018 |
