@@ -155,7 +155,7 @@ DATASETS:
 
  ```bash
   # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our D3 method.
-  python AIR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet_64x64/D3.yaml 
+  python AIR_Distiller/tools/train.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/D3.yaml 
   ```
 
   - By default, the ImageNet pre-trained model will be used for training. The model will be automatically downloaded from the internet on the first run.  
@@ -166,7 +166,7 @@ DATASETS:
 
  ```bash
   # for instance, when the gallery network is ResNet101 and the query network is ResNet18, our D3 method.
-  python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet_64x64/D3.yaml 
+  python AIR_Distiller/tools/test.py --cfg Training_Configs/SOP/ResNet101_256x256_ResNet18_64x64/D3.yaml 
 
  ```
  - During inference, you can first navigate to `AIR_Distiller/utils/rank_cylib` and run the following commands to enable sorting with C language, which helps reduce inference time:  
