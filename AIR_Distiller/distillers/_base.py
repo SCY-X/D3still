@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from .triplet_loss import TripletLoss
 from ptflops import get_model_complexity_info
-from fvcore.nn import FlopCountAnalysis
 
 class Distiller(nn.Module):
     def __init__(self, student, teacher, cfg):
