@@ -54,7 +54,7 @@ Performance on different resolutions
 | D3still (Ours) | 68.56% mAP &nbsp; 83.96% R1|67.90% mAP &nbsp; 82.18% R1|
 
 Performance on different network architectures
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-T-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
 |:---------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.16%  mAP &nbsp; 0.06% R1  | |
 | RKD |  0.15% mAP &nbsp;  0.03% R1| |
