@@ -1,16 +1,3 @@
-<style>
-table {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-th, td {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-</style>
-
 This repo is
 
 (1) a PyTorch library that provides classical knowledge distillation algorithms on asymmetric image retrieval benchmarks.
