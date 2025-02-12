@@ -39,7 +39,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin_Transformer_V2_Small ($256\times256$) <br> ResNet18 ($64\times64$)| 
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-T-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)| 
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.15% mAP &nbsp; 0.02% R1|  0.12% mAP &nbsp; 0.03% R1 |0.16%  mAP &nbsp; 0.06% R1  |
 | RKD |  0.15% mAP &nbsp; 0.06% R1| 0.15% mAP &nbsp; 0.04% R1| 0.15% mAP &nbsp;  0.03% R1|
