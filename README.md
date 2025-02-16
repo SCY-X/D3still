@@ -26,17 +26,18 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 #### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($128\times128$)|  ResNet101 ($384\times384$) <br> ResNet18 ($128\times128$)  |   Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($128\times128$) |
-|:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.99% mAP &nbsp; 0.62% R1| 0.80% mAP &nbsp; 0.28% R1 |  |
-| RKD | 0.85% mAP &nbsp; 0.36% R1| 0.90% mAP &nbsp; 0.52% R1 |  |
-| PKT | 0.87% mAP &nbsp; 0.71% R1| 0.95% mAP &nbsp; 0.55% R1 |  |
-| FitNet|  54.73% mAP &nbsp; 60.96% R1| 56.61% mAP &nbsp; 61.82% R1 |  |
-| CC| 57.93% mAP &nbsp; 62.89% R1| 59.91% mAP &nbsp; 64.26% R1 |  |
-| CSD| 58.86% mAP &nbsp; 64.08% R1| 60.44% mAP &nbsp; 64.31% R1|  |
-| RAML| 57.87% mAP &nbsp; 62.89% R1| 60.22% mAP &nbsp; 64.79% R1|  |
-| ROP| 55.61% mAP &nbsp; 63.00% R1| 57.23% mAP &nbsp; 63.12% R1 | |
-| D3still (Ours) | 59.40% mAP &nbsp; 64.46% R1| 61.03% mAP &nbsp; 64.84% R1 | |
+Performance on different resolutions
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($128\times128$) | ResNet101 ($384\times384$) <br> ResNet18 ($128\times128$) |
+|:---------------:|:-----------------:|:-----------------:|
+| VanillaKD | 0.99% mAP &nbsp; 0.62% R1 | 0.80% mAP &nbsp; 0.28% R1 |
+| RKD | 0.85% mAP &nbsp; 0.36% R1 | 0.90% mAP &nbsp; 0.52% R1 |
+| PKT | 0.87% mAP &nbsp; 0.71% R1 | 0.95% mAP &nbsp; 0.55% R1 |
+| FitNet | 54.73% mAP &nbsp; 60.96% R1 | 56.61% mAP &nbsp; 61.82% R1 |
+| CC | 57.93% mAP &nbsp; 62.89% R1 | 59.91% mAP &nbsp; 64.26% R1 |
+| CSD | 58.86% mAP &nbsp; 64.08% R1 | 60.44% mAP &nbsp; 64.31% R1 |
+| RAML | 57.87% mAP &nbsp; 62.89% R1 | 60.22% mAP &nbsp; 64.79% R1 |
+| ROP | 55.61% mAP &nbsp; 63.00% R1 | 57.23% mAP &nbsp; 63.12% R1 |
+| D3still (Ours) | **59.40% mAP &nbsp; 64.46% R1** | **61.03% mAP &nbsp; 64.84% R1** |
 
 #### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
