@@ -56,15 +56,15 @@ Performance on different resolutions
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
 |:---------------:|:-----------------:|:-----------------:|
-| VanillaKD | 0.16%  mAP &nbsp; 0.06% R1  | |
-| RKD |  0.15% mAP &nbsp;  0.03% R1| |
-| PKT | 0.15% mAP &nbsp; 0.08% R1 | |
-| FitNet| 60.41% mAP &nbsp; 74.61% R1| |
-| CC| 61.53% mAP &nbsp; 76.25% R1| |
-| CSD| 62.27% mAP &nbsp; 76.48% R1| |
-| RAML| 62.29% mAP &nbsp; 76.13% R1| |
-| ROP| 61.43% mAP &nbsp; 75.91% R1| |
-| D3still (Ours) | 64.14% mAP &nbsp; 80.08% R1| |
+| VanillaKD | 0.16%  mAP &nbsp; 0.06% R1  | 0.13% mAP &nbsp; 0.03% R1|
+| RKD |  0.15% mAP &nbsp;  0.03% R1| 0.14% mAP &nbsp; 0.04% R1|
+| PKT | 0.15% mAP &nbsp; 0.08% R1 | 0.16% mAP &nbsp; 0.04% R1|
+| FitNet| 60.41% mAP &nbsp; 74.61% R1| 56.35% mAP &nbsp; 65.77% R1|
+| CC| 61.53% mAP &nbsp; 76.25% R1| 56.55% mAP &nbsp; 65.51% R1|
+| CSD| 62.27% mAP &nbsp; 76.48% R1| 57.58% mAP &nbsp; 67.87% R1|
+| RAML| 62.29% mAP &nbsp; 76.13% R1| 57.34 mAP &nbsp; 67.42% R1|
+| ROP| 61.43% mAP &nbsp; 75.91% R1| 53.87% mAP &nbsp; 63.52% R1|
+| D3still (Ours) | 64.14% mAP &nbsp; 80.08% R1|60.19% mAP &nbsp; 72.07 R1|
 
 #### On the Stanford Online Products (SOP) dataset
 
