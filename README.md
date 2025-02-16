@@ -47,8 +47,8 @@ Performance on different network architectures
 | PKT | 0.88% mAP &nbsp; 0.40% R1|  |
 | FitNet | 39.50% mAP &nbsp; 44.56% R1 |  |
 | CC | 44.79%   mAP &nbsp; 49.21% R1|  |
-| CSD | 46.45% mAP &nbsp; 50.45% R1|  |
-| RAML | 46.47% mAP &nbsp; 51.80% R1|  |
+| CSD | **46.45% mAP &nbsp; 50.45% R1**|  |
+| RAML | 45.57% mAP &nbsp; 49.53% R1|  |
 | ROP | 41.90% mAP &nbsp; 48.10% R1|  |
 | D3still (Ours) |45.90% mAP &nbsp; 50.83% R1|  |
 
