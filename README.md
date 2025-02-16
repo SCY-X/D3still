@@ -42,7 +42,7 @@ Performance on different resolutions
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($128\times128$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($128\times128$) |
 |:---------------:|:-----------------:|:-----------------:|
-| VanillaKD |0.90% mAP &nbsp; 0.45% R1 |  |
+| VanillaKD |0.90% mAP &nbsp; 0.45% R1 | 0.97% mAP &nbsp; 0.33% R1|
 | RKD | 0.93% mAP &nbsp; 0.59% R1|  |
 | PKT | 0.88% mAP &nbsp; 0.40% R1|  |
 | FitNet | 39.50% mAP &nbsp; 44.56% R1 |  |
