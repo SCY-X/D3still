@@ -87,12 +87,12 @@ Performance on different network architectures
 | VanillaKD | 0.03% mAP &nbsp; 0.00% R1 | 0.03% mAP &nbsp; 0.01% R1|
 | RKD | 0.03% mAP &nbsp; 0.00% R1 |  0.04% mAP &nbsp; 0.02% R1|
 | PKT |  0.04% mAP &nbsp; 0.01% R1 | 0.03% mAP &nbsp; 0.00% R1 |
-| FitNet | 44.80% mAP &nbsp; 60.30% R1 |  |
-| CC | 44.37% mAP &nbsp; 60.09% R1 |  |
-| CSD | 44.98% mAP &nbsp; 60.72% R1 |  |
-| RAML | 45.52% mAP &nbsp; 61.48% R1 |  |
-| ROP | 43.67% mAP &nbsp; 59.35% R1 |  |
-| D3still (Ours) | **46.59% mAP &nbsp; 63.60% R1** |  |
+| FitNet | 44.80% mAP &nbsp; 60.30% R1 | 37.06% mAP &nbsp; 46.57% R1|
+| CC | 44.37% mAP &nbsp; 60.09% R1 | 40.27% mAP &nbsp; 51.94% R1|
+| CSD | 44.98% mAP &nbsp; 60.72% R1 |  40.50% mAP &nbsp; 51.63% R1|
+| RAML | 45.52% mAP &nbsp; 61.48% R1 | 40.64% mAP &nbsp; 51.97% R1|
+| ROP | 43.67% mAP &nbsp; 59.35% R1 | 37.90 mAP &nbsp; 49.45% R1|
+| D3still (Ours) | **46.59% mAP &nbsp; 63.60% R1** | **43.32% mAP &nbsp; 56.98% R1**|
 
 #### On the MSMT17 dataset
 
