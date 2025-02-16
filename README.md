@@ -68,8 +68,8 @@ Performance on different network architectures
 
 #### On the Stanford Online Products (SOP) dataset
 
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$)  |
-|:---------------:|:-----------------:|:-----------------:|:-----------------:|
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |  ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$)  | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
+|:---------------:|:-----------------:|:-----------------:|:-----------------:| :-----------------:|
 | VanillaKD | 0.04% mAP &nbsp; 0.00% R1| 0.04% mAP &nbsp; 0.01% R1 | 0.03% mAP &nbsp; 0.00% R1 |
 | RKD |  0.03% mAP &nbsp; 0.00% R1|  0.03% mAP &nbsp; 0.00% R1| 0.03% mAP &nbsp; 0.00% R1 |
 | PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.03% mAP &nbsp; 0.00% R1|  0.04% mAP &nbsp; 0.01% R1 |
