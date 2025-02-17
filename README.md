@@ -27,7 +27,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 #### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
 
 Performance on different resolutions
-| Teacher <br> Student | ResNet101 ($256\times256$)(71.30% mAP &nbsp; 81.57% R1) <br> ResNet18 ($128\times128$)(40.25% mAP &nbsp; 59.98% R1) | ResNet101 ($384\times384$) <br> ResNet18 ($128\times128$) |
+| Teacher <br> Student | ResNet101 ($256\times256$)(71.30% mAP 81.57% R1) <br> ResNet18 ($128\times128$)(40.25% mAP &nbsp; 59.98% R1) | ResNet101 ($384\times384$)() <br> ResNet18 ($128\times128$) |
 |:---------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.99% mAP &nbsp; 0.62% R1 | 0.80% mAP &nbsp; 0.28% R1 |
 | RKD | 0.85% mAP &nbsp; 0.36% R1 | 0.90% mAP &nbsp; 0.52% R1 |
