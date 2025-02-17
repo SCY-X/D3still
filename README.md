@@ -111,7 +111,7 @@ Performance on different network architectures
 #### On the MSMT17 dataset
 
 | Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |ResNet101 ($320\times160$) <br> MobileNet-V3-Small ($160\times80$)| ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
-|:---------------:|:-----------------:|:-----------------:|:-----------------:|
+|:---------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.04% R1 |
 | RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1| 0.07%  mAP &nbsp; 0.04% R1 |
 | PKT | 0.04% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.03% R1| 0.07% mAP &nbsp; 0.01% R1 |
