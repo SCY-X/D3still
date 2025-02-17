@@ -68,7 +68,7 @@ Performance on different resolutions
 | D3still (Ours) | **68.56% mAP &nbsp; 83.96% R1**|**67.90% mAP &nbsp; 82.18% R1**|
 
 Performance on different network architectures
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3-Small ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
 |:---------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.16%  mAP &nbsp; 0.06% R1  | 0.13% mAP &nbsp; 0.03% R1|
 | RKD |  0.15% mAP &nbsp;  0.03% R1| 0.14% mAP &nbsp; 0.04% R1|
@@ -96,7 +96,7 @@ Performance on different resolutions
 | D3still (Ours) | **51.12% mAP &nbsp; 68.42% R1** | **48.70% mAP &nbsp; 64.94% R1** |
 
 Performance on different network architectures
-| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3 ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$) |
+| Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3-Small ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$) |
 |:---------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.03% mAP &nbsp; 0.00% R1 | 0.03% mAP &nbsp; 0.01% R1|
 | RKD | 0.03% mAP &nbsp; 0.00% R1 |  0.04% mAP &nbsp; 0.02% R1|
@@ -110,7 +110,7 @@ Performance on different network architectures
 
 #### On the MSMT17 dataset
 
-| Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) | ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
+| Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$)|  ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |ResNet101 ($320\times160$) <br> MobileNet-V3-Small ($160\times80$)| ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.06% mAP &nbsp; 0.01% R1| 0.07% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.04% R1 |
 | RKD | 0.07% mAP &nbsp; 0.03% R1|  0.07% mAP &nbsp; 0.03% R1| 0.07%  mAP &nbsp; 0.04% R1 |
@@ -120,7 +120,7 @@ Performance on different network architectures
 | CSD| 38.30% mAP &nbsp; 59.04% R1| 38.39% mAP &nbsp; 57.85% R1 | 39.54% mAP &nbsp; 57.90% R1 |
 | RAML| 38.15% mAP &nbsp; 58.89% R1| 38.32% mAP &nbsp; 58.21% R1| 39.72% mAP &nbsp; 58.85% R1|
 | ROP| 36.02% mAP &nbsp; 57.17% R1| 36.08% mAP &nbsp;  56.45% R1| 37.56% mAP &nbsp; 57.35% R1|
-| D3still (Ours) | 39.54% mAP &nbsp; 61.37% R1| 39.42% mAP &nbsp; 60.13% R1 | 41.93% mAP &nbsp; 61.51% R1|
+| D3still (Ours) | **39.54% mAP &nbsp; 61.37% R1**| **39.42% mAP &nbsp; 60.13% R1** | **41.93% mAP &nbsp; 61.51% R1**|
 
 
 # AIR-Distiller
