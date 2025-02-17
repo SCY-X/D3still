@@ -110,6 +110,7 @@ Performance on different network architectures
 
 #### On the MSMT17 dataset
 
+Performance on different resolutions
 | Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$) | ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |
 |:---------------:|:-----------------:|:-----------------:|
 | VanillaKD | 0.06% mAP &nbsp; 0.01% R1 | 0.07% mAP &nbsp; 0.02% R1 |
@@ -122,6 +123,18 @@ Performance on different network architectures
 | ROP | 36.02% mAP &nbsp; 57.17% R1 | 36.08% mAP &nbsp; 56.45% R1 |
 | D3still (Ours) | **39.54% mAP &nbsp; 61.37% R1** | **39.42% mAP &nbsp; 60.13% R1** |
 
+Performance on different network architectures
+| Teacher <br> Student | ResNet101 ($320\times160$) <br> MobileNet-V3-Small ($160\times80$) | ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
+|:---------------:|:-----------------:|:-----------------:|
+| VanillaKD | 0.07% mAP &nbsp; 0.04% R1 |  |
+| RKD | 0.07% mAP &nbsp; 0.04% R1 |  |
+| PKT | 0.07% mAP &nbsp; 0.01% R1 |  |
+| FitNet | 38.97% mAP &nbsp; 57.36% R1 |  |
+| CC | 38.65% mAP &nbsp; 56.65% R1 |  |
+| CSD | 39.54% mAP &nbsp; 57.90% R1 |  |
+| RAML | 39.72% mAP &nbsp; 58.85% R1 |  |
+| ROP | 37.56% mAP &nbsp; 57.35% R1 |  |
+| D3still (Ours) | **41.93% mAP &nbsp; 61.51% R1** |  |
 
 
 # AIR-Distiller
