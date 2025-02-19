@@ -279,4 +279,4 @@ AIR_Distiller is released under the MIT license. See [LICENSE](LICENSE) for deta
 
 # Acknowledgement
 - Thanks for DKD. We build this library based on the [DKD's codebase](https://github.com/megvii-research/mdistiller).
-- Thanks Yihong Lin for the discussion about D3still
+- Thanks Yihong Lin for the discussion about D3still.
