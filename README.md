@@ -186,7 +186,7 @@ sudo pip3 install -r requirements.txt
 - Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
-- Please modify the following line in `AIR_Distiller/train.py` and `AIR_Distiller/test.py`:  
+- Please modify the following line in `AIR_Distiller/tools/train.py` and `AIR_Distiller/tools/test.py`:  
 `sys.path.append(os.path.abspath("XXXXX/AIR_Distiller"))`  
 Replace `"XXXXX/AIR_Distiller"` with the absolute path of your project to ensure correct module imports.
 
