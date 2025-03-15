@@ -12,7 +12,7 @@ NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this rep
 
 ## Framework & Performance
 
-<div style="text-align:center"><img src=".github/framework.png" width="80%" ></div>
+<div style="text-align:center"><img src="/AIR_Distiller/.github/framework.png" width="80%" ></div>
 
 ### Ablation Experiments
 
