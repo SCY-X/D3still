@@ -10,7 +10,7 @@ This repo is
 NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this repository follows common practices in prior knowledge distillation research by incorporating standard losses (e.g., cross-entropy loss and triplet loss) during the distillation of the student network (query network). Correspondingly, the hyperparameters in all distillation methods are also adjusted accordingly. As a result, the experimental outcomes reported in this repository demonstrate significant performance improvements across multiple datasets compared to those presented in the CVPR 2024 paper. For example, on the In-Shop dataset, [FitNet](https://arxiv.org/abs/1412.6550) performance is improved from 62.84% mAP to 65.99% mAP. To offer a more comprehensive evaluation of the effectiveness of our approach, this repository presents ablation experiment results on new benchmarks.
 
 
-
+## Framework & Performance
 
 ### Ablation Experiments
 
