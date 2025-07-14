@@ -261,6 +261,11 @@ rm -rf build
 
 4. create a new config file and test it.
 
+### Experimental Note
+During training, the batch size of the distillation dataloader (256) is larger than that of the student dataloader (96), resulting in fewer iterations per epoch. This discrepancy may lead to suboptimal performance  for some methods due to insufficient training steps. Future researchers can reduce the distillation batch size or increase the number of training epochs to address this concern.
+
+Across all methods we experimented with, we found that using a distillation batch size of either 256 or 96 yields comparable best performance. However, some method-specific hyperparameters may need to be tuned accordingly.
+
 # Citation
 
 If this repo is helpful for your research, please consider citing the paper:
