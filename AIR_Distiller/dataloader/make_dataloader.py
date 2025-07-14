@@ -32,7 +32,7 @@ class DataLoaderFactory:
             T.Normalize(mean=self.cfg.INPUT.PIXEL_MEAN, std=self.cfg.INPUT.PIXEL_STD)
         ]
         if self.cfg.INPUT.RE_PROB > 0:
-            transforms.append(T.RandomErasing(p=self.cfg.INPUT.RE_PROB))
+            transforms.append(T.RandomErasing(p=self.cfg.INPUT.RE_PROB, value=self.cfg.INPUT.PIXEL_MEAN))
         return T.Compose(transforms)
 
     def _build_test_transforms(self, size):
