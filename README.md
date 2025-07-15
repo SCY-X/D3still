@@ -14,7 +14,7 @@ NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this rep
 ## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="80%" ></div>
+<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="90%" ></div>
 
 ### Ablation Experiments
 
@@ -27,7 +27,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 ## Unambiguous granularity distillation for asymmetric image retrieval
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="100%" ></div> 
+<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="90%" ></div> 
 
 ## SOTA Experiments
 
