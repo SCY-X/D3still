@@ -14,7 +14,7 @@ NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this rep
 ## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/framework.png" width="80%" ></div>
+<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="80%" ></div>
 
 ### Ablation Experiments
 
@@ -22,13 +22,16 @@ Gallery Network: ResNet101 &nbsp; Gallery Network Input Resolution: $256\times25
  
 Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($128\times128$) &nbsp; In-Shop ($64\times 64$) &nbsp; SOP ($64\times 64$)
 
-<div style="text-align:center"><img src="/AIR_Distiller/.github/Ablation_Study.png" width="100%" ></div> 
+<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_ablation_study.png" width="100%" ></div> 
 
 ## Unambiguous granularity distillation for asymmetric image retrieval
 
-### SOTA Experiments
+### Framework
+<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="100%" ></div> 
 
-#### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
+## SOTA Experiments
+
+### On the Caltech-UCSD Birds 200 (CUB-200-2011) dataset
 
 Performance on different resolutions
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($128\times128$) | ResNet101 ($384\times384$) <br> ResNet18 ($128\times128$) |
@@ -56,7 +59,7 @@ Performance on different network architectures
 | ROP | 41.90% mAP &nbsp; 48.10% R1|  57.97% mAP &nbsp; 60.70% R1|
 | D3still (Ours) |45.90% mAP &nbsp; 50.83% R1| **61.35% mAP &nbsp; 62.03% R1**|
 
-#### On the In-Shop Clothes Retrieval (In-Shop) dataset
+### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
 Performance on different resolutions
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$)|  ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$)|
@@ -84,7 +87,7 @@ Performance on different network architectures
 | ROP| 61.43% mAP &nbsp; 75.91% R1| 53.87% mAP &nbsp; 63.52% R1|
 | D3still (Ours) | **64.14% mAP &nbsp; 80.08% R1**|**60.19% mAP &nbsp; 72.07 R1**|
 
-#### On the Stanford Online Products (SOP) dataset
+### On the Stanford Online Products (SOP) dataset
 
 Performance on different resolutions
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> ResNet18 ($64\times64$) | ResNet101 ($384\times384$) <br> ResNet18 ($64\times64$) |
@@ -112,7 +115,7 @@ Performance on different network architectures
 | ROP | 43.67% mAP &nbsp; 59.35% R1 | 37.90 mAP &nbsp; 49.45% R1|
 | D3still (Ours) | **46.59% mAP &nbsp; 63.60% R1** | **43.32% mAP &nbsp; 56.98% R1**|
 
-#### On the MSMT17 dataset
+### On the MSMT17 dataset
 
 Performance on different resolutions
 | Teacher <br> Student | ResNet101 ($320\times160$) <br> ResNet18 ($160\times80$) | ResNet101 ($480\times240$) <br> ResNet18 ($160\times80$) |
