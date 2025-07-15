@@ -11,7 +11,7 @@ NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this rep
 
 (3) the official implementation of the Neural Networks-2025 paper: [Unambiguous granularity distillation for asymmetric image retrieval](https://www.sciencedirect.com/science/article/pii/S0893608025001820).
 
-## Framework & Experiments
+## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
 
 ### Framework
 <div style="text-align:center"><img src="/AIR_Distiller/.github/framework.png" width="80%" ></div>
@@ -24,7 +24,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 
 <div style="text-align:center"><img src="/AIR_Distiller/.github/Ablation_Study.png" width="100%" ></div> 
 
-
+## Unambiguous granularity distillation for asymmetric image retrieval
 
 ### SOTA Experiments
 
@@ -279,6 +279,18 @@ If this repo is helpful for your research, please consider citing the paper:
     month     = {June},
     year      = {2024},
     pages     = {17181-17190}
+}
+```
+
+```BibTeX
+@article{zhang2025unambiguous,
+  title={Unambiguous granularity distillation for asymmetric image retrieval},
+  author={Zhang, Hongrui and Xie, Yi and Zhang, Haoquan and Xu, Cheng and Luo, Xuandi and Chen, Donglei and Xu, Xuemiao and Zhang, Huaidong and Heng, Pheng Ann and He, Shengfeng},
+  journal={Neural Networks},
+  volume={187},
+  pages={107303},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
