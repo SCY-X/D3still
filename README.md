@@ -14,7 +14,7 @@ NOTE: Unlike our CVPR 2024 paper, which employs only distillation loss, this rep
 ## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="90%" ></div>
+<div style="text-align:center"><img src="/AIR_Distiller/.github/D3still_framework.png" width="100%" ></div>
 
 ### Ablation Experiments
 
@@ -27,7 +27,7 @@ Query Network: ResNet18  &nbsp; Query Network Input Resolution: CUB-200-2011 ($1
 ## Unambiguous granularity distillation for asymmetric image retrieval
 
 ### Framework
-<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="90%" ></div> 
+<div style="text-align:center"><img src="/AIR_Distiller/.github/UGD_framework.png" width="100%" ></div> 
 
 ## SOTA Experiments
 
@@ -160,7 +160,7 @@ AIR-Distiller supports the following distillation methods on  Caltech-UCSD Birds
 |[RAML](https://openaccess.thecvf.com/content/WACV2023/html/Suma_Large-to-Small_Image_Resolution_Asymmetry_in_Deep_Metric_Learning_WACV_2023_paper.html)|WACV|2023|
 |[ROP](https://openreview.net/forum?id=dYHYXZ3uGdQ)|ICLR|2023|
 |[D3still](https://openaccess.thecvf.com/content/CVPR2024/html/Xie_D3still_Decoupled_Differential_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2024_paper.html) |CVPR|2024|
-
+|[UGD](https://www.sciencedirect.com/science/article/pii/S0893608025001820) |Neural Networks|2025|
 
 ### Installation
 
