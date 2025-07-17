@@ -119,7 +119,12 @@ _C.D3.BETA = 2.0
 _C.D3.GAMMA = 1.0
 _C.D3.KD_WEIGHT = 1.0
 
-
+# UGD CFG
+_C.UGD = CN()
+_C.UGD.DISTILLATION_LAYER = 3
+_C.UGD.ALPHA = 2.0
+_C.UGD.BETA = 2.0
+_C.UGD.KD_WEIGHT = 1.0
 
 # # -----------------------------------------------------------------------------
 # # INPUT
