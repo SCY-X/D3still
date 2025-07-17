@@ -8,6 +8,7 @@ from .CSD import CSD
 from .ROP import ROP
 from .RAML import RAML
 from .D3 import D3
+from .UGD import UGD
 
 distiller_dict = {
     "NONE": Vanilla,
@@ -19,5 +20,6 @@ distiller_dict = {
     "CSD": CSD,
     "ROP": ROP,
     "RAML": RAML,
-    "D3": D3
+    "D3": D3,
+    "UGD": UGD
 }
