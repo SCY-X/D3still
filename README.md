@@ -102,7 +102,9 @@ Performance on different resolutions
 | CSD | 49.43% mAP &nbsp; 65.96% R1 | 46.22% mAP &nbsp; 61.03% R1 |
 | RAML | 49.46% mAP &nbsp; 66.24% R1 | 46.79% mAP &nbsp; 62.12% R1 |
 | ROP | 48.03% mAP &nbsp; 64.66% R1 | 44.53% mAP &nbsp; 59.66% R1 |
-| D3still (Ours) | **51.12% mAP &nbsp; 68.42% R1** | **48.70% mAP &nbsp; 64.94% R1** |
+| D3still| 51.12% mAP &nbsp; 68.42% R1 | 48.70% mAP &nbsp; 64.94% R1 |
+| D3still| 50.31% mAP &nbsp; 67.43% R1 | 47.30% mAP &nbsp; 63.13% R1 |
+
 
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3-Small ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$) |
