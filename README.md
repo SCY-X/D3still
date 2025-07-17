@@ -72,7 +72,8 @@ Performance on different resolutions
 | CSD| 66.64% mAP &nbsp; 81.00% R1| 65.73% mAP &nbsp; 78.55% R1|
 | RAML| 67.18% mAP &nbsp; 81.85% R1| 65.95% mAP &nbsp; 79.45% R1|
 | ROP| 65.58% mAP &nbsp; 80.24% R1| 64.20% mAP &nbsp; 77.62% R1|
-| D3still (Ours) | **68.56% mAP &nbsp; 83.96% R1**|**67.90% mAP &nbsp; 82.18% R1**|
+| D3still| 68.56% mAP &nbsp; 83.96% R1 | 67.90% mAP &nbsp; 82.18% R1|
+| UGD | 69.20% mAP &nbsp; 84.05% R1 | 68.74% mAP &nbsp; 82.39% R1|
 
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3-Small ($64\times64$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($64\times64$)|
@@ -85,7 +86,8 @@ Performance on different network architectures
 | CSD| 62.27% mAP &nbsp; 76.48% R1| 57.58% mAP &nbsp; 67.87% R1|
 | RAML| 62.29% mAP &nbsp; 76.13% R1| 57.34 mAP &nbsp; 67.42% R1|
 | ROP| 61.43% mAP &nbsp; 75.91% R1| 53.87% mAP &nbsp; 63.52% R1|
-| D3still (Ours) | **64.14% mAP &nbsp; 80.08% R1**|**60.19% mAP &nbsp; 72.07 R1**|
+| D3still | 64.14% mAP &nbsp; 80.08% R1 |60.19% mAP &nbsp; 72.07 R1|
+| UGD| 64.50% mAP &nbsp; 79.55% R1 ||
 
 ### On the Stanford Online Products (SOP) dataset
 
