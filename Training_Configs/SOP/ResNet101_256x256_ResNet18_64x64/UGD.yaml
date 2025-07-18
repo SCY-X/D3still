@@ -9,7 +9,7 @@ OUTPUT_DIR:
 
 DATASETS:
   NAMES: "SOP"
-  ROOT_DIR: "/home/data2/xieyi/data"
+  ROOT_DIR: ""
 
 
 DISTILLER:
