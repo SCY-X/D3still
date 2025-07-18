@@ -154,7 +154,7 @@ Performance on different network architectures
 | RAML | 32.93% mAP &nbsp; 50.94% R1 |39.72% mAP &nbsp; 58.85% R1 |
 | ROP | 30.12% mAP &nbsp; 48.12% R1 |37.56% mAP &nbsp; 57.35% R1 |
 | D3still | 33.77%  mAP &nbsp; 53.80% R1 | 41.93% mAP &nbsp; 61.51% R1 |
-| D3still | 34.74%  mAP &nbsp; 53.69% R1 | % mAP &nbsp; % R1 |
+| UGD | 34.74%  mAP &nbsp; 53.69% R1 | 37.56% mAP &nbsp; 55.17% R1 |
 
 
 # AIR-Distiller
