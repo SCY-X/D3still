@@ -138,7 +138,7 @@ Performance on different resolutions
 | RAML | 38.15% mAP &nbsp; 58.89% R1 | 38.32% mAP &nbsp; 58.21% R1 |
 | ROP | 36.02% mAP &nbsp; 57.17% R1 | 36.08% mAP &nbsp; 56.45% R1 |
 | D3still | 39.54% mAP &nbsp; 61.37% R1 | 39.42% mAP &nbsp; 60.13% R1 |
-| UGD | 40.48% mAP &nbsp; 62.42% R1 | % mAP &nbsp; % R1 |
+| UGD | 40.48% mAP &nbsp; 62.42% R1 | 40.73% mAP &nbsp; 62.28% R1 |
 
 
 
