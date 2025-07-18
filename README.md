@@ -120,8 +120,8 @@ Performance on different network architectures
 | CSD | 44.98% mAP &nbsp; 60.72% R1 |  40.50% mAP &nbsp; 51.63% R1|
 | RAML | 45.52% mAP &nbsp; 61.48% R1 | 40.64% mAP &nbsp; 51.97% R1|
 | ROP | 43.67% mAP &nbsp; 59.35% R1 | 37.90 mAP &nbsp; 49.45% R1|
-| D3still (Ours) | 46.59% mAP &nbsp; 63.60% R1 | 43.32% mAP &nbsp; 56.98% R1|
-| UGD| 44.13% mAP &nbsp; 60.29% R1| % mAP &nbsp; % R1|
+| D3still | 46.59% mAP &nbsp; 63.60% R1 | 43.32% mAP &nbsp; 56.98% R1|
+| UGD| 44.13% mAP &nbsp; 60.29% R1| 38.45% mAP &nbsp; 48.78% R1|
 
 
 ### On the MSMT17 dataset
