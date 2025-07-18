@@ -137,7 +137,10 @@ Performance on different resolutions
 | CSD | 38.30% mAP &nbsp; 59.04% R1 | 38.39% mAP &nbsp; 57.85% R1 |
 | RAML | 38.15% mAP &nbsp; 58.89% R1 | 38.32% mAP &nbsp; 58.21% R1 |
 | ROP | 36.02% mAP &nbsp; 57.17% R1 | 36.08% mAP &nbsp; 56.45% R1 |
-| D3still (Ours) | **39.54% mAP &nbsp; 61.37% R1** | **39.42% mAP &nbsp; 60.13% R1** |
+| D3still | 39.54% mAP &nbsp; 61.37% R1 | 39.42% mAP &nbsp; 60.13% R1 |
+| UGD | 40.48% mAP &nbsp; 62.42% R1 | % mAP &nbsp; % R1 |
+
+
 
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($320\times160$) <br> MobileNet-V3-Small ($160\times80$) | ResNet101-IBN ($320\times160$) <br> ResNet18 ($160\times80$) |
@@ -150,7 +153,8 @@ Performance on different network architectures
 | CSD |32.63%  mAP &nbsp; 50.91% R1 |39.54% mAP &nbsp; 57.90% R1 |
 | RAML | 32.93% mAP &nbsp; 50.94% R1 |39.72% mAP &nbsp; 58.85% R1 |
 | ROP | 30.12% mAP &nbsp; 48.12% R1 |37.56% mAP &nbsp; 57.35% R1 |
-| D3still (Ours) | **33.77%  mAP &nbsp; 53.80% R1** | **41.93% mAP &nbsp; 61.51% R1** |
+| D3still | 33.77%  mAP &nbsp; 53.80% R1 | 41.93% mAP &nbsp; 61.51% R1 |
+| D3still | 34.74%  mAP &nbsp; 53.69% R1 | % mAP &nbsp; % R1 |
 
 
 # AIR-Distiller
