@@ -44,7 +44,8 @@ Performance on different resolutions
 | CSD | 58.86% mAP &nbsp; 64.08% R1 | 60.44% mAP &nbsp; 64.31% R1 |
 | RAML | 57.87% mAP &nbsp; 62.89% R1 | 60.22% mAP &nbsp; 64.79% R1 |
 | ROP | 55.61% mAP &nbsp; 63.00% R1 | 57.23% mAP &nbsp; 63.12% R1 |
-| D3still (Ours) | **59.40% mAP &nbsp; 64.46% R1** | **61.03% mAP &nbsp; 64.84% R1** |
+| D3still | 59.40% mAP &nbsp; 64.46% R1 | 61.03% mAP &nbsp; 64.84% R1 |
+| UGD | 59.32% mAP &nbsp; 65.05% R1 | 60.78% mAP &nbsp; 64.70% R1 |
 
 Performance on different network architectures
 | Teacher <br> Student | ResNet101 ($256\times256$) <br> MobileNet-V3-Small ($128\times128$) | Swin-Transformer-V2-Small ($256\times256$) <br> ResNet18 ($128\times128$) |
@@ -54,10 +55,12 @@ Performance on different network architectures
 | PKT | 0.88% mAP &nbsp; 0.40% R1| 1.09% mAP &nbsp; 0.57% R1 |
 | FitNet | 39.50% mAP &nbsp; 44.56% R1 | 60.02% mAP &nbsp; 61.67% R1|
 | CC | 44.79%   mAP &nbsp; 49.21% R1| 60.74% mAP &nbsp; 61.55% R1|
-| CSD | **46.45% mAP &nbsp; 50.45% R1**| 60.44% mAP &nbsp; 62.08% R1|
+| CSD | 46.45% mAP &nbsp; 50.45% R1| 60.44% mAP &nbsp; 62.08% R1|
 | RAML | 45.57% mAP &nbsp; 49.53% R1| 60.51% mAP &nbsp; 61.60% R1|
 | ROP | 41.90% mAP &nbsp; 48.10% R1|  57.97% mAP &nbsp; 60.70% R1|
-| D3still (Ours) |45.90% mAP &nbsp; 50.83% R1| **61.35% mAP &nbsp; 62.03% R1**|
+| D3still |45.90% mAP &nbsp; 50.83% R1| 61.35% mAP &nbsp; 62.03% R1|
+| UGD |46.92% mAP &nbsp; 50.83% R1| 60.03% mAP &nbsp; 60.51% R1|
+
 
 ### On the In-Shop Clothes Retrieval (In-Shop) dataset
 
