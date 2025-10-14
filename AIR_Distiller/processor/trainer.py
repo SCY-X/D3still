@@ -138,7 +138,7 @@ class KDTrainer(BaseTrainer):
                 student_model[name] = parameter
 
         student_save_path = os.path.join(self.cfg.OUTPUT_DIR.ROOT_PATH, self.cfg.OUTPUT_DIR.EXPERIMENT_NAME, "student_{}.pth".format(epoch))
-        torch.save(model_state, student_save_path)
+        torch.save(student_model, student_save_path)
 
     def train_epoch(self, epoch):
         self.reset_meters()
