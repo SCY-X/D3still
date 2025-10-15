@@ -3,7 +3,7 @@ import logging
 
 
 def make_optimizer(cfg, distiller):
-    logger = logging.getLogger("reid_baseline.train")
+    logger = logging.getLogger("Asymmetric_Image_Retrieval.train")
     params = []
     
     parameter_source = distiller.module if torch.cuda.device_count() > 1 else distiller 
