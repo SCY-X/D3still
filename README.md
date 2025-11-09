@@ -87,7 +87,7 @@ Performance on different network architectures
 | FitNet| 60.41% mAP &nbsp; 74.61% R1| 56.35% mAP &nbsp; 65.77% R1|
 | CC| 61.53% mAP &nbsp; 76.25% R1| 56.55% mAP &nbsp; 65.51% R1|
 | CSD| 62.27% mAP &nbsp; 76.48% R1| 57.58% mAP &nbsp; 67.87% R1|
-| RAML| 62.29% mAP &nbsp; 76.13% R1| 57.34 mAP &nbsp; 67.42% R1|
+| RAML| 62.29% mAP &nbsp; 76.13% R1| 57.34% mAP &nbsp; 67.42% R1|
 | ROP| 61.43% mAP &nbsp; 75.91% R1| 53.87% mAP &nbsp; 63.52% R1|
 | D3still | 64.14% mAP &nbsp; 80.08% R1 |60.19% mAP &nbsp; 72.07% R1|
 | UGD| 64.50% mAP &nbsp; 79.55% R1 | 58.98% mAP &nbsp; 69.36% R1|
