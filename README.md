@@ -59,7 +59,7 @@ Performance on different network architectures
 | RAML | 45.57% mAP &nbsp; 49.53% R1| 60.51% mAP &nbsp; 61.60% R1|
 | ROP | 41.90% mAP &nbsp; 48.10% R1|  57.97% mAP &nbsp; 60.70% R1|
 | D3still |45.90% mAP &nbsp; 50.83% R1| 61.35% mAP &nbsp; 62.03% R1|
-| UGD |46.92% mAP &nbsp; 50.83% R1| 60.03% mAP &nbsp; 60.51% R1|
+| UGD |46.92% mAP &nbsp; 52.66% R1| 60.03% mAP &nbsp; 60.51% R1|
 
 
 ### On the In-Shop Clothes Retrieval (In-Shop) dataset
