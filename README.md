@@ -193,7 +193,7 @@ sudo pip3 install -r requirements.txt
 ### Getting started
 
 0. download data
-- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1ySKEmn8WVm2efJVvJ_vMBQ?pwd=ebyx. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
+- The dataset has been prepared in the format we read at the link: https://pan.baidu.com/s/1ySKEmn8WVm2efJVvJ_vMBQ?pwd=ebyx or https://drive.google.com/drive/folders/1OBOHWP15sH2mdgaKhq6v3YImT9zd__gj?usp=drive_link. Please download the data and untar it to `XXXX/data` via `unzip XXXX`. For example,  `unzip CUB_200_2011.zip`. Finally, the data file directory should be as follows:
 
 
   XXXX/data/  
@@ -203,7 +203,7 @@ sudo pip3 install -r requirements.txt
     &nbsp; &nbsp; &nbsp; &nbsp; └── MSMT17
 
 1. download teacher models
-- Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i, please download the checkpoints to `./download_ckpts`
+- Our teacher models are at https://pan.baidu.com/s/1X8urI8_bDfmdapSaNGYbtA?pwd=if2i or https://drive.google.com/drive/folders/1-S6r2nrcn6fQzBrnnEtLbivs4sZ028ZE?usp=drive_link, please download the checkpoints to `./download_ckpts`
 
 2. Path setting
 - Please modify the following line in `AIR_Distiller/tools/train.py` and `AIR_Distiller/tools/test.py`:  
