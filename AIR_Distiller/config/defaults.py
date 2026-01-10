@@ -47,9 +47,8 @@ _C.DISTILLER.TEACHER_LAST_STRIDE = 1
 _C.DISTILLER.TEACHER_MODEL_PATH = ""
 _C.DISTILLER.STUDENT_NAME = "ResNet18"
 _C.DISTILLER.STUDENT_LAST_STRIDE = 1
-# Specify the choice of pre-trained model
-# 'imagenet' indicates using a model pre-trained on the ImageNet dataset.
-# 'NO' means no pre-trained weights will be used, and the model will be trained from scratch.
+# 'True' indicates using a model pre-trained on the ImageNet dataset. 
+# 'False' means no pre-trained weights will be used, and the model will be trained from scratch.
 _C.DISTILLER.STUDENT_PRETRAIN_CHOICE = True
 _C.DISTILLER.STUDENT_PRETRAIN_PATH = ""
 
