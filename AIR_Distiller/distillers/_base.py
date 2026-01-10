@@ -67,33 +67,7 @@ class Distiller(nn.Module):
         
         macs, _ = get_model_complexity_info(self.student, image_size, as_strings=True,
                                             print_per_layer_stat=False, verbose=True)
-      
-        # if macs is None:
-        #     print(f"FLOPs calculation failed: {None}, unpacking model...")
-        #     # 解封模型后重新计算
-        #     unpacked_model = self.unpack_model(self.student)
-        #     print(unpacked_model)
-            
-        #     macs, _ = get_model_complexity_info(nn.Sequential(*unpacked_model), image_size, as_strings=True,
-        #                                         print_per_layer_stat=False, verbose=True)
-        # print(macs)
-        # exit()
         return macs
-    
-    # def unpack_model(self, model):
-    #     """
-    #     递归展开模型的所有子模块，但保留原始模型结构。
-    #     """
-    #     layers = []
-    #     for name, module in model.named_children():
-    #         print(f"Layer: {name}, Module: {module}")
-    #         # 如果模块还有子模块，则继续递归处理
-    #         if len(list(module.children())) > 0:
-    #             layers.extend(self.unpack_model(module))
-    #         else:
-    #             layers.append(module)
-            
-    #     return layers
 
     def forward_train(self, **kwargs):
         # training function for the distillation method
