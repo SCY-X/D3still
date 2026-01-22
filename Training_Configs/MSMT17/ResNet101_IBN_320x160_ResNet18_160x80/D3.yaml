@@ -9,7 +9,7 @@ OUTPUT_DIR:
 
 DATASETS:
   NAMES: "MSMT17"
-  ROOT_DIR: "/root/autodl-tmp/data"
+  ROOT_DIR: ""
 
 
 DISTILLER:
