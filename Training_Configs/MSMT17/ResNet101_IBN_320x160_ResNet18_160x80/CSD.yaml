@@ -15,7 +15,7 @@ DATASETS:
 DISTILLER:
   TYPE: "CSD"
   TEACHER_NAME: "ResNet101_ibn_a"
-  TEACHER_MODEL_PATH: "./AIR_Distiller/download_ckpts/MSMT17_Teachers/MSMT17_ResNet101_IBN_320x160_64.13_84.49.pth"
+  TEACHER_MODEL_PATH: "./AIR_Distiller/download_ckpts/MSMT17_Teachers/MSMT17_ResNet101_IBN_320x160_65.15_85.46.pth"
   STUDENT_NAME: "ResNet18"
   STUDENT_PRETRAIN_PATH: ''
 
