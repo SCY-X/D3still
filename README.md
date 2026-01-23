@@ -11,6 +11,10 @@ NOTE: 1) Unlike our CVPR 2024 paper, which employs only distillation loss, this 
 
 (3) the official implementation of the Neural Networks-2025 paper: [Unambiguous granularity distillation for asymmetric image retrieval](https://www.sciencedirect.com/science/article/pii/S0893608025001820).
 
+## What's New
+## Jan 23, 2026
+Fixed an issue where the downsampling stride in the final stage of ResNet-IBN was not set to 1. Based on the corrected architecture, we re-trained the ResNet101-IBN model and released the corresponding weights on both Baidu Cloud and Google Drive under the filename MSMT17_ResNet101_IBN_320x160_65.15_85.46.pth. In addition, we updated the distillation results on the MSMT17 dataset for ResNet101-IBN → ResNet18.
+
 ## D3still: Decoupled Differential Distillation for Asymmetric Image Retrieval
 
 ### Framework
