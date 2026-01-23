@@ -152,13 +152,13 @@ Performance on different network architectures
 | VanillaKD |0.06% mAP &nbsp; 0.03% R1  | 0.07% mAP &nbsp; 0.04% R1 |
 | RKD |0.06% mAP &nbsp; 0.02% R1 | 0.07% mAP &nbsp; 0.04% R1 | 
 | PKT | 0.06% mAP &nbsp; 0.03% R1  | 0.07% mAP &nbsp; 0.01% R1 | 
-| FitNet | 31.97% mAP &nbsp; 49.53% R1 |38.97% mAP &nbsp; 57.36% R1 | 
-| CC | 32.08% mAP &nbsp; 49.88% R1|38.65% mAP &nbsp; 56.65% R1 | 
-| CSD |32.63%  mAP &nbsp; 50.91% R1 |39.54% mAP &nbsp; 57.90% R1 |
-| RAML | 32.93% mAP &nbsp; 50.94% R1 |39.72% mAP &nbsp; 58.85% R1 |
-| ROP | 30.12% mAP &nbsp; 48.12% R1 |37.56% mAP &nbsp; 57.35% R1 |
-| D3still | 33.77%  mAP &nbsp; 53.80% R1 | 41.93% mAP &nbsp; 61.51% R1 |
-| UGD | 34.74%  mAP &nbsp; 53.69% R1 | 43.05% mAP &nbsp; 63.24% R1 |
+| FitNet | 31.97% mAP &nbsp; 49.53% R1 |38.28% mAP &nbsp; 56.38% R1 | 
+| CC | 32.08% mAP &nbsp; 49.88% R1|39.68% mAP &nbsp; 58.08% R1 | 
+| CSD |32.63%  mAP &nbsp; 50.91% R1 |39.31% mAP &nbsp; 57.39% R1 |
+| RAML | 32.93% mAP &nbsp; 50.94% R1 |39.76% mAP &nbsp; 58.29% R1 |
+| ROP | 30.12% mAP &nbsp; 48.12% R1 |37.25% mAP &nbsp; 56.81% R1 |
+| D3still | 33.77%  mAP &nbsp; 53.80% R1 | 40.90% mAP &nbsp; 60.17% R1 |
+| UGD | 34.74%  mAP &nbsp; 53.69% R1 | 41.98% mAP &nbsp; 61.22% R1 |
 
 
 # AIR-Distiller
