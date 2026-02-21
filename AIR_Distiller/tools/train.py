@@ -3,12 +3,7 @@ import shutil
 import random
 import numpy as np
 import argparse
-
 import torch
-
-
-import sys
-sys.path.append(os.path.abspath("XXXXX/AIR_Distiller"))
 
 from config import cfg
 from utils.logger import setup_logger
@@ -17,7 +12,8 @@ from distillers import distiller_dict
 from dataloader.make_dataloader import DataLoaderFactory
 from processor import trainer_dict
 
-
+import sys
+sys.path.append(os.path.abspath("XXXXX/AIR_Distiller"))
 
 def set_seed(seed):
     torch.manual_seed(seed)
