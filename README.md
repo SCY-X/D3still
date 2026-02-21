@@ -221,7 +221,7 @@ import os
 sys.path.append(os.path.abspath("/home/user/AIR_Distiller"))
 ```
 - Please set the `ROOT_DIR` path in the configuration file, i.e., XXX.yaml to the absolute path of the `data` folder.  
-- 
+  
 **Example** (assuming the data path is `/home/user/data`):  
 ```yaml
 DATASETS:
