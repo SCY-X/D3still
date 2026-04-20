@@ -57,25 +57,21 @@ if __name__ == "__main__":
         model_student = model_dict[cfg.DISTILLER.STUDENT_NAME](pretrained=True, pretrained_path=cfg.DISTILLER.STUDENT_PRETRAIN_PATH, 
                                                                last_stride=cfg.DISTILLER.STUDENT_LAST_STRIDE, num_classes=num_classes)
         
-        model_student.load_state_dict({k.replace('student.', ""): v for k, v in torch.load(os.path.join(output_dir, f"student_{cfg.TEST.WEIGHT}.pth"), weights_only=True).items()})
         distiller = distiller_dict[cfg.DISTILLER.TYPE](model_student, cfg)
         
 
     else:
         model_teacher = model_dict[cfg.DISTILLER.TEACHER_NAME](pretrained=False, last_stride=cfg.DISTILLER.TEACHER_LAST_STRIDE, num_classes=num_classes)
-        model_teacher.load_state_dict({k.replace('student.', ""): v for k, v in torch.load(cfg.DISTILLER.TEACHER_MODEL_PATH, weights_only=True).items()})
-
+       
         model_student = model_dict[cfg.DISTILLER.STUDENT_NAME](pretrained=True, pretrained_path=cfg.DISTILLER.STUDENT_PRETRAIN_PATH, 
                                                                last_stride=cfg.DISTILLER.STUDENT_LAST_STRIDE, num_classes=num_classes)
-        
-        model_student.load_state_dict({k.replace('student.', ""): v for k, v in torch.load(os.path.join(output_dir, f"student_{cfg.TEST.WEIGHT}.pth"), weights_only=True).items()})
         
         distiller = distiller_dict[cfg.DISTILLER.TYPE](
                 model_student, model_teacher, cfg
             )
    
     
-    # distiller.load_state_dict(torch.load(os.path.join(output_dir, f"{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth"), weights_only=True))
+    distiller.load_state_dict(torch.load(os.path.join(output_dir, f"{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth"), weights_only=True))
 
     if torch.cuda.device_count() > 1:
         print('Using {} GPUs for training'.format(torch.cuda.device_count()))
