@@ -15,8 +15,6 @@ NOTE: 1) Unlike our CVPR 2024 paper, which employs only distillation loss, this 
 
 ### April 20, 2026
 
-### April 20, 2026
-
 We have updated the checkpoint saving logic for better usability.
 
 Previously, the full distiller was saved to both `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth` and `student.pth`.  
