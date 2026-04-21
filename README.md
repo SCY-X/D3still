@@ -15,12 +15,21 @@ NOTE: 1) Unlike our CVPR 2024 paper, which employs only distillation loss, this 
 
 ### April 20, 2026
 
+### April 20, 2026
+
 We have updated the checkpoint saving logic for better usability.
 
 Previously, the full distiller was saved to both `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth` and `student.pth`.  
 Now, the full distiller is saved only to `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth`, while only the student model is saved to `student.pth`.
 
 Please note that during inference in the test script, `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth` is still loaded. This is because some methods rely on additional convolutional layers beyond the student network itself.
+
+We also release exported student-only checkpoints for evaluation:
+- Baidu Cloud: https://pan.baidu.com/s/1g3Y0xbLaZL7TpFyvQAz3Ag?pwd=w8mb
+- Google Drive: https://drive.google.com/drive/folders/1JwLpRgga_Qo8RfMmgzsSjyi-wZAW56hx?usp=sharing
+
+The exported student-only checkpoints are named `{cfg.DISTILLER.TYPE}_mAP指标_R1指标.pth`.  
+To test one of them, place it under the `OUTPUT_DIR` specified in the method YAML configuration file and rename it to `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth`.
 
 ## Jan 23, 2026
 Fixed an issue where the downsampling stride in the final stage of ResNet-IBN was not set to 1. Based on the corrected architecture, we re-trained the ResNet101-IBN model and released the corresponding weights on both Baidu Cloud and Google Drive under the filename MSMT17_ResNet101_IBN_320x160_65.15_85.46.pth. In addition, we updated the distillation results on the MSMT17 dataset for ResNet101-IBN → ResNet18.
@@ -273,6 +282,15 @@ DATASETS:
 python3 setup.py build_ext --inplace
 rm -rf build
 ```
+
+5. Testing with the exported student-only checkpoint
+
+- We also provide exported student-only checkpoints for evaluation only.
+- The checkpoints are available at https://pan.baidu.com/s/1g3Y0xbLaZL7TpFyvQAz3Ag?pwd=w8mb or https://drive.google.com/drive/folders/1JwLpRgga_Qo8RfMmgzsSjyi-wZAW56hx?usp=sharing.
+- The filename of each exported student-only checkpoint is `{cfg.DISTILLER.TYPE}_mAP指标_R1指标.pth`.
+- To test such a checkpoint, place it in the directory specified by `OUTPUT_DIR` in the method YAML configuration file.
+- Then rename it to `{cfg.DISTILLER.TYPE}_{cfg.TEST.WEIGHT}.pth` before running evaluation.
+- This exported student-only checkpoint is separated from the normal training outputs, which may also include other files.
 
 ### Custom Distillation Method
 
