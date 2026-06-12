@@ -142,7 +142,7 @@ class ResNet_IBN(nn.Module):
         self.layer1 = self._make_layer(block, 64, layers[0], ibn=ibn_cfg[0])
         self.layer2 = self._make_layer(block, 128, layers[1], stride=2, ibn=ibn_cfg[1])
         self.layer3 = self._make_layer(block, 256, layers[2], stride=2, ibn=ibn_cfg[2])
-        self.layer4 = self._make_layer(block, 512, layers[3], stride=2, ibn=ibn_cfg[3])
+        self.layer4 = self._make_layer(block, 512, layers[3], stride=last_stride, ibn=ibn_cfg[3])
         self.avgpool = nn.AdaptiveAvgPool2d(output_size=1)
         self.fc = ClassBlock(512 * block.expansion, num_classes, num_bottleneck=512)
 
